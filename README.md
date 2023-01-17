@@ -55,6 +55,6 @@ const element = {
 1. Wrap JSX in parantheses to avoid automatic semicolon insertion
 2. In JSX 'class' attribute --> 'className' to avoid collision with JS class keyword
 3. Attributes in JSX follow camel case, Eg: tabindex --> tabIndex [Because JSX is closer to JS than it is to HTML]
-4. In JSX, whatever comes between an opening and closing tag is the child of that element. Even if it's a string. Eg:
-<h1> Hello </h1> -> Here, "Hello" is a child of h1 element
+4. In JSX, whatever comes between an opening and closing tag is the child of that element. Even if it's a string. 
+5. Eg: ` <h1> Hello </h1> ` Here, "Hello" is a child of h1 element
 
