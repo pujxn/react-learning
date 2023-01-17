@@ -7,7 +7,7 @@
 
 ## Embedding JS expressions in JSX
 1. Any expression to be wrapped in curly braces
-2. String literals to have just quotes around it
+2. String literals to have just quotes around it [Will be treated as a string even if not present]
 
 ## Specifying attributes for JSX tags
 Eg: `const element = <a href="https://www.reactjs.org"> link </a>;`   --> Using a string literal\
