@@ -21,29 +21,35 @@ Eg: `const element = <img src={user.avatarUrl}></img>;`  --> Using a JS expressi
 1. Babel compiles JSX into JS
 2. JSX elements are converted to React.createElement function calls. Eg: 
 
-``` const element = (
+``` 
+const element = (
   <h1 className="greeting">
     Hello, world!
   </h1>
-); ``` 
+); 
+``` 
 
 **BECOMES**
 
-``` const element = React.createElement(
+``` 
+const element = React.createElement(
   'h1',
   {className: 'greeting'},
   'Hello, world!'
-); ```
+); 
+```
 
 **WHICH RETURNS**
 
-``` const element = {
+``` 
+const element = {
   type : "h1",
   props: {
     className: "greeting",
     children: "Hello, world!"
   }
-} ```
+} 
+```
 
 ## TIPS: 
 1. Wrap JSX in parantheses to avoid automatic semicolon insertion
