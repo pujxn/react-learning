@@ -10,7 +10,7 @@
 2. String literals to have just quotes around it
 
 ## Specifying attributes for JSX tags
-Eg: `const element = <a href="https://www.reactjs.org"> link </a>;`   --> Using a string literal
+Eg: `const element = <a href="https://www.reactjs.org"> link </a>;`   --> Using a string literal\
 Eg: `const element = <img src={user.avatarUrl}></img>;`  --> Using a JS expression
 
 
