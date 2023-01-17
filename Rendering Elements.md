@@ -10,7 +10,7 @@
 
 Somewhere in the markup there is: `<div id = "root">...</div>`
 We fetch it using: 
-`const ele = document.getElementById(root)'
+`const ele = document.getElementById(root)`
 
 2. Then we use ReactDOM.createRoot() on it to make it a React DOM root [Usually there is just one root node, but some applications can have multiple isolated roots]
 
