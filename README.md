@@ -3,7 +3,7 @@
 ## WHY JSX?
 1. JSX produces react elements
 2. JSX is compiled into JS functions that return JS objects- so you can use it as you would another funciton call
-3. JSX serves as a visual aid for markup by coupling in with rendering logic
+3. JSX serves as a visual aid for markup by coupling it with rendering logic
 
 ## Embedding JS expressions in JSX
 1. Any expression to be wrapped in curly braces
