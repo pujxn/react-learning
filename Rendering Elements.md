@@ -19,7 +19,7 @@ We fetch it using:
 3. Then we use root.render() with arguments as what is to be rendered. Eg: rendering an element:
 
 ```
-const rederingEle = "Hello World"
+const rederingEle = "<h1>Hello World</h1>"
 root.render(renderingEle)
 ```
 
